@@ -140,30 +140,43 @@ nav{width: 800px; float: right; height: 61px;}
 .search-cont{width: 800px; float: right; height: 31px; padding:10px 0;}
 .everything-filter{font-family: 'Raleway', sans-serif; color:#646464; font-size: 1.1em; cursor:pointer; display: inline-block; vertical-align: middle;}
 .search-form{display: inline-block; vertical-align: middle; width:665px; margin-left: 25px;}
-.search-form input[type="search"]{border:none; border-bottom: 1px solid #afc4e1; width:600px; padding-bottom: 2px; outline:none; font-family: 'Open Sans', sans-serif; color:#646464; font-size: 1.1em;}
+.search-form input[type="search"]{border:none; border-bottom: 1px solid #afc4e1; width: 621px; padding-bottom: 2px; outline:none; font-family: 'Open Sans', sans-serif; color:#646464; font-size: 1.1em;}
 
-.search-form ::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #999;
-    font-size: 1.1em;
-    display:block;
-}
-.search-form :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #999;
-    font-size: 1.1em;
-   
-}
-.search-form ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #999;
-    font-size: 1.1em;
-}
-.search-form :-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #999;
-    font-size: 1.1em;
-}
+.search-form ::-webkit-input-placeholder { /* WebKit browsers */color:    #999;font-size: 1.1em;display:block;}
+.search-form :-moz-placeholder { /* Mozilla Firefox 4 to 18 */color:    #999;font-size: 1.1em;}
+.search-form ::-moz-placeholder { /* Mozilla Firefox 19+ */color:    #999;font-size: 1.1em;}
+.search-form :-ms-input-placeholder { /* Internet Explorer 10+ */color:    #999;font-size: 1.1em;}
 
 .search-btn{background-color:transparent; border:none; display: inline-block; vertical-align: middle;	}
 
 
+/*--footer--*/
+footer{background-color:#e6e7e8;}
+.footer-inner{width:980px; margin:0 auto; padding:2em 0; border-bottom: 2px solid #f5ee31;}
+.footer-logo{float:left;}
+
+.links-cont{float:right; width:785px;}
+.links-cont h3{font-family: 'Raleway', sans-serif; font-weight: normal; color:#4c4c4c; margin:0 0 5px 0; font-size: 1.4em;}
+
+.quick-links{width:260px; display: inline-block; vertical-align: top; margin-right:15px;}
+.quick-links ul{margin-top:0; margin-bottom:0; list-style-type: none; padding: 0 0 0 15px;}
+.quick-links ul li{text-indent: -5px;}
+.quick-links ul li:before{ content:"-"; position:relative; left:-5px;}
+.quick-links ul li a{text-decoration: none; color:#6d6e71; font-size: .9em;}
+
+.follow-us{width:205px; display: inline-block; vertical-align: top; margin-right:15px;}
+.follow-us span{width:100px; display: inline-block; vertical-align: middle; font-size: .9em; font-family: 'Lato', sans-serif; font-weight: 300; margin:5px 0;}
+.follow-us span a{text-decoration: none; color:#6d6e71;} 
+/*--news letter--*/
+.news-letter{width:277px; display: inline-block; vertical-align: top;}
+.news-letter input[type="text"]{border: none; background-color: rgba(46, 49, 49, 0.3); color:#4c4c4c; font-family: 'Lato', sans-serif; font-weight: 300; display: block; width: 92%;padding: 8px;}
+.news-letter-sign-up{background-color: transparent; border:1px solid #4c4c4c; color:#939598; display: block; border-radius: 2px; width: 120px; text-align: center; padding:10px; margin-top:20px;}
+
+/*--placeholder styles--*/
+.news-letter ::-webkit-input-placeholder { /* WebKit browsers */color:#4c4c4c; font-size: 1.1em; display:block; font-family: 'Lato', sans-serif; font-weight: 300;}
+.news-letter :-moz-placeholder { /* Mozilla Firefox 4 to 18 */color:#4c4c4c; font-size: 1.1em; font-family: 'Lato', sans-serif; font-weight: 300;}
+.news-letter ::-moz-placeholder { /* Mozilla Firefox 19+ */color:#4c4c4c; font-size: 1.1em; font-family: 'Lato', sans-serif; font-weight: 300;}
+.news-letter :-ms-input-placeholder { /* Internet Explorer 10+ */color:#4c4c4c; font-size: 1.1em; font-family: 'Lato', sans-serif; font-weight: 300;}
 
 /*--content areas--*/
 .home-mast{background-image: url(../img/header-img-home.jpg); background-size:100%; height:343px; background-repeat:no-repeat;}
@@ -189,6 +202,7 @@ right: 194px; top: 386px; color:#fff; }
 
 
 /*--recent-recipes--*/
+.recent-recipe-cont{padding:1em 0 3em 0;}
 .recent-recipes{}
 .recent-recipes h2{font-family: 'Raleway', sans-serif; font-weight:300; font-size: 3em; padding:0 .5em;}
 .recent-recipe{display: block; float:left; margin:0 0 0 12px; position: relative; }
