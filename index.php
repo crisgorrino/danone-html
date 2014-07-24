@@ -9,49 +9,16 @@
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="stylesheet" href="css/normalize.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/icons.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
 <script src="js/main.js" type="text/javascript"></script>
 <title>Cooking with Yogurt</title>
 </head>
 <body>
-<!--header-->
-<header>
-	<section class="inner cf">
-		<a href="#" class="logo left"><img src="img/better-with-logo.jpg" alt=""></a>
-		<!--nav-->
-		<nav>
-			<ul class="main-nav">
-				<li><a href="">Recepies</a></li>
-				<li><a href="">Why Yogurt</a></li>
-				<li><a href="">Symon Says</a></li>
-				<li><a href="">Promotions</a></li>
-			</ul>
-			<div class="soc-top">
-				<!--<a href="" class="icon-pinterest"></a>-->
-				<a href="" class="icon-googleplus"></a>
-				<!--<a href="" class="icon-facebook2"></a>-->
-				<!--<a href="" class="icon-twitter"></a>-->
-			</div>
-			<span class="user-dd">
-				<i class="icon-user"></i>
-				<i class="arrow-down"></i>
-			</span>	
-		</nav>
-		<!--nav-->
-		
-		<!--search bar-->
-		<div class="search-cont">
-			<span class="everything-filter">Everything <i class="arrow-down-gray"></i></span>
-			<form class="search-form">
-				<input type="search" placeholder="Search">
-				<button class="search-btn"><img src="img/search-icon.png" alt=""></button>
-			</form>
-		</div>	
-		<!--search bar-->	
-	
-	</section>
-</header>	
-<!--header-->
+<!--include--header-->
+<?php include('views/header.php'); ?>
+<!--include--header-->
 
 <!--mast-->
 <article class="container home-mast">
@@ -159,63 +126,9 @@
 </article>
 <!--recent recepies-->
 
-<!--footer-->
-<footer>
-	<section class="footer-inner cf">
-		<a href="#" class="footer-logo"><img src="img/footer-logo.png" alt="stonyfield & Oikos"></a>
-		<div class="links-cont">
-			<!--quick links-->
-			<div class="quick-links">
-				<h3>Quick Links</h3>
-				<ul class="inline-top">
-					<li><a href="">Category Name 1</a></li>
-					<li><a href="">Category Name 1</a></li>
-					<li><a href="">Category Name 1</a></li>
-					<li><a href="">Category Name 1</a></li>
-					<li><a href="">Category Name 1</a></li>
-				</ul>
-				<ul class="inline-top">
-					<li><a href="">Category Name 1</a></li>
-					<li><a href="">Category Name 1</a></li>
-					<li><a href="">Category Name 1</a></li>
-					<li><a href="">Category Name 1</a></li>
-				</ul>
-			</div>
-			<!--quick links-->
-			<!--follow us-->
-			<div class="follow-us">
-				<h3>Follow Us</h3>
-				<span><a href=""><img src="img/pin-ico.png" alt="" class="inline"> Pinterest</a></span>
-				<span><a href=""><img src="img/face-ico.png" alt="" class="inline"> Facebook</a></span>
-				<span><a href=""><img src="img/g-ico.png" alt="" class="inline"> Google +</a></span>
-				<span><a href=""><img src="img/twtr-ico.png" alt="" class="inline">Twitter</a></span>
-				<span><a href=""><img src="img/inst-ico.png" alt="" class="inline"> Instagram</a></span>
-			</div>
-			<!--follow us-->
-			<!--News letter form-->
-			<form class="news-letter">
-				<h3>News Letter</h3>
-				<input type="text" placeholder="Email Address">
-				<button class="news-letter-sign-up">Sign Up</button>			
-			</form>
-			
-		</div>
-	</section>
-	<section class="inner center footer-bottom">
-				<p>&copy;2014 ALL RIGHTS RESERVED.</p>
-				<ul class="footer-nav">
-					<li><a href="">PRIVACY POLICY |</a></li> 
-					<li><a href="">TERMS OF USE |</a></li> 
-					<li><a href="">CONTACT US |</a></li> 
-					<li><a href="">FAQ |</a></li> 
-					<li><a href="">SITE MAP |</a></li>  
-					<li><a href="">WHERE TO BUY |</a></li>  
-					<li><a href="">NEWSLETTER SIGN-UP |</a></li> 
-					<li><a href="">UNSUBSCRIBE</a></li>
-				</ul>
-				<p class="site-links"><a href="">STONYFIELD.COM</a> | <a href="">OIKOSYOGURT.COM</a></p>
-	</section>	
-</footer>
-<!--footer-->
+<!--include--footer-->
+<?php include('views/footer.php'); ?>
+<!--include--footer-->
+
 </body>
 </html> 
