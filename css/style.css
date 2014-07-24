@@ -8,7 +8,7 @@
 
 /*raleway*/
 /*font-family: 'Raleway', sans-serif;*/
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,200);
 
 /*lato*/
 /*font-family: 'Lato', sans-serif;*/
@@ -189,3 +189,9 @@ right: 194px; top: 386px; color:#fff; }
 .email-print-save{list-style-type: none; padding: 0; float: right;}
 .email-print-save li{display: inline-block; vertical-align: middle; text-align: center; color:#8c8c8c;  font-family:'Open Sans', sans-serif; font-size: 1.3em; border-left:1px solid #dbdbdb; padding: 50px 30px;}
 .email-print-save i{display: block; font-size: 3em; color:#5f89c4; cursor: pointer;}
+
+.recipe-main{}
+.recipe-main .column{width:425px; padding:15px 0;}
+.recipe-main h3{font-family: 'Raleway', sans-serif; font-weight:200; font-size: 2.88em; color:#4c4c4c;}
+.recipe-main ul{list-style-type: none; padding:0;}
+.recipe-main ul li{display: block; padding:10px 0;}
