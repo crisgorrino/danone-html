@@ -74,7 +74,7 @@
 		
 		<p><img src="img/clock-ico.jpg" alt=""> <span>10 Min Preparation <br>1.5 Hrs Cooking</span></p>
 		
-		<p><img src="img/utensils-ico.jpg" alt=""> <span>Happy</span></p>	
+		<p><img src="img/happy-ico.jpg" alt=""> <span>Happy</span></p>	
 		 
 		<img src="img/stony-field-recipe.jpg" alt="" class="recipe-logo">	
 		
@@ -135,7 +135,7 @@
 			<a href="" class="tag">Salad</a>, <a href="" class="tag">Vegetarian</a>, <a href="" class="tag">Gluten Free</a>, <a href="" class="tag">Fast</a>, <a href="" class="tag">Happy</a>
 				
 				<img src="img/stonyfield-yogurt.jpg" alt="" class="inline recipe-prod-img">
-				<p class="inline">For more info<br> visit <a href="http://Stonyfield.com" target="_blank">Stonyfield.com</a></p>
+				<p class="inline prod-moreinfo">For more info<br> visit <a href="http://Stonyfield.com" target="_blank">Stonyfield.com</a></p>
 				
 </div>
 		
@@ -197,13 +197,51 @@
 			<img src="img/win-25000.png" alt="win 25,000.00">
 		</div>
 		<img src="img/symon-sinlge-recipe.png" class="absolute-image">
-		<!--<a href="" class="enter-now">Enter Now</a>-->
+		<a href="" class="enter-now">Enter Now</a>
 	</section>
 </section>
 <!--calling all foodies recipe-->
 
 <!--comments and reviews-->
-
+<div class="comments-reviews inner">
+	<h3>Comments &amp; Reviews</h3>
+	
+	<div class="coments-top">
+		<a href="">2 comments</a>
+		<a href="">Login to rate or review this recipe</a>
+	</div>
+	
+	<!--review-->
+	<div class="review">
+		<h4>FLAVORFUL, FILLING AND NOT TOO TIME CONSUMING</h4>
+		<span>rvicenik replied on Tue, 07/09/2013 - 8:47pm</span>
+		<div class="rating">
+				<i class="icon-heart heart"></i>
+				<i class="icon-heart heart"></i>
+				<i class="icon-heart heart"></i>
+				<i class="icon-heart2 heart"></i>
+				<i class="icon-heart2 heart"></i>
+		</div>
+		<p>I saw this recipe and decided to give it a try. I've never had Quinoa before, but heard it's packed with protein. This recipe was delicious in flavor and didn't leave me looking in the fridge for more later on. The grocery store was out of fresh basil, but had gluten free basil paste. It saved time since I didn't have to blend anything. I also added chicken for some extra protein. Definitely will be eating this more often. Thanks Stonyfield :)</p>		
+	</div>
+	<!--review-->
+	
+	<!--review-->
+	<div class="review">
+		<h4>FLAVORFUL, FILLING AND NOT TOO TIME CONSUMING</h4>
+		<span>rvicenik replied on Tue, 07/09/2013 - 8:47pm</span>
+		<div class="rating">
+				<i class="icon-heart heart"></i>
+				<i class="icon-heart heart"></i>
+				<i class="icon-heart heart"></i>
+				<i class="icon-heart2 heart"></i>
+				<i class="icon-heart2 heart"></i>
+		</div>
+		<p>I saw this recipe and decided to give it a try. I've never had Quinoa before, but heard it's packed with protein. This recipe was delicious in flavor and didn't leave me looking in the fridge for more later on. The grocery store was out of fresh basil, but had gluten free basil paste. It saved time since I didn't have to blend anything. I also added chicken for some extra protein. Definitely will be eating this more often. Thanks Stonyfield :)</p>		
+	</div>
+	<!--review-->
+	
+</div>
 <!--comments and reviews-->
 
 <!--include--footer-->
