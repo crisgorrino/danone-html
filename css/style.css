@@ -21,6 +21,8 @@
 .inline-top{display: inline-block; vertical-align: top;}
 .inline-bottom{display: inline-block; vertical-align: bottom;}
 .center{text-align: center;}
+.lclear{clear:left;}
+.rclear{clear:right;}
 
 /*---arrows--*/
 .arrow-down {
@@ -191,7 +193,27 @@ right: 194px; top: 386px; color:#fff; }
 .email-print-save i{display: block; font-size: 3em; color:#5f89c4; cursor: pointer;}
 
 .recipe-main{}
+
+
+.serving-time-mood p{float:left;width:225px;}
+.serving-time-mood p img{display: block; float:left;}
+.serving-time-mood span{width:75%; display:block; float:right; margin-top: 15px; font-family: 'Open Sans', sans-serif; font-weight:600; color:#8c8c8c}
+
+.recipe-logo{margin:1em 0; float:left; display: block;}
+
 .recipe-main .column{width:425px; padding:15px 0;}
-.recipe-main h3{font-family: 'Raleway', sans-serif; font-weight:200; font-size: 2.88em; color:#4c4c4c;}
+.recipe-main h3{font-family: 'Raleway', sans-serif; font-weight:200; font-size: 2.88em; color:#4c4c4c; margin: 0 0 5px 0;}
+.recipe-main h4{font-family: 'Raleway', sans-serif; font-weight:200; font-size: 2.5em; color:#4c4c4c; margin-top: 0; margin: 0 0 5px 0;}
+.recipe-main h5{font-family: 'Raleway', sans-serif; font-size: 1.5em; color:#4c4c4c; font-weight:600; margin: 20px 0 5px 0;}
+
 .recipe-main ul{list-style-type: none; padding:0;}
-.recipe-main ul li{display: block; padding:10px 0;}
+.recipe-main ul li{display: block; padding:10px 0; font-family: 'Raleway', sans-serif; font-weight:400;}
+
+.product-locator{color:#b7b7b7; text-indent: 35px; padding:0 0 0 0!important;}
+.product-locator a{color:#b7b7b7; font-family: 'Lato', sans-serif;}
+
+.column .tag{text-decoration: none; display: inline-block; padding:20px 0 0 0;  font-family: 'Raleway', sans-serif; font-weight:600; color:#4c4c4c;}
+.column .tag:hover{text-decoration: underline;}
+.recipe-prod-img{padding:50px 0 0 0;} 
+
+.column p{font-family: 'Open Sans', sans-serif; font-weight:400; font-size: 1.2em;}

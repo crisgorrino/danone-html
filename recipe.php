@@ -68,10 +68,25 @@
 
 <section class="inner recipe-main cf">
 	
+	<!--recipe prev-->
+	<div class="serving-time-mood cf">
+		<p><img src="img/utensils-ico.jpg" alt=""> <span>Serves 4 People</span></p>
+		
+		<p><img src="img/clock-ico.jpg" alt=""> <span>10 Min Preparation <br>1.5 Hrs Cooking</span></p>
+		
+		<p><img src="img/utensils-ico.jpg" alt=""> <span>Happy</span></p>	
+		 
+		<img src="img/stony-field-recipe.jpg" alt="" class="recipe-logo">	
+		
+	</div>
+	
+	<!--recipe prev-->
+	
 	<div class="column left">
 		<h3>Ingeredients</h3>
 		<ul>
-			<li>2/3 c <strong>Stonyfield Organic Greek Plain Nonfat</strong></li> 
+			<li>2/3 c <strong>Stonyfield Organic Greek Plain Nonfat</strong></li>
+				 <li class="product-locator"><i class="icon-location"></i><a href="">Product Locator</a></li>
 			<li>1/4 c basil</li>
 			<li>2 T olive oil</li>
 			<li>3/4 t salt</li>
@@ -89,15 +104,41 @@
 	
 	<div class="column right">
 		<h3>Preparation</h3>
-		<h4>Step 1</h4>
+		<h5>Step 1</h5>
 		<p>Combine yogurt, basil, olive oil, 1/2 teaspoon of the salt and the pepper in a blender. Puree on high speed until well blended and smooth; set aside.</p>
 		
-		<h4>Step 2</h4>
+		<h5>Step 2</h5>
 		<p>In a medium-size saucepan, melt butter over medium heat. Add onion to pot and cook for 4 minutes. Add quinoa to pot and cook, stirring, for 1 minute. Stir in broth, cover and bring to a boil over high heat. Reduce heat to medium-low and simmer, covered, for about 20 minutes or until liquid is absorbed. Remove from heat and transfer quinoa to a serving bowl.</p>
 		
-		<h4>Step 3</h4>
-		<p>Stir prepared dressing, zucchini, red pepper, chickpeas, mozzarella and remaining 1/4 teaspoon salt into serving bowl with quinoa until combined; serve immediately.</p>
+		<h5>Step 3</h5>
+		<p>Stir prepared dressing, zucchini, red pepper, chickpeas, mozzarella and remaining 1/4 teaspoon salt into serving bowl with quinoa until combined; serve immediately.</p>		
 	</div>
+
+<div class="column left  lclear">
+		<h4>Nutritional Information:</h4>
+		<ul>
+			<li>Serving Size: 1 cupCalories: 280 Calories from Fat: 130</li> 
+			<li>Total Fat: 14g Total Fat Percent: 22% Saturated Fat: 5g</li>
+			<li>Saturated Fat Percent: 25% Cholesterol: 30mg </li>
+			<li>Cholesterol Percent: 10% Sodium: 330mg </li>
+			<li>Sodium Percent: 14% Total Carbohydrate: 25g</li>
+			<li>Total Carbohydrate Percent: 8% Dietary Fiber: 4g </li>
+			<li>Dietary Fiber Percent: 16% Sugars: 4g Protein: 13g </li>
+			<li>Protein Percent: 26% Vitamin A: 15% Vitamin C: 45%</li>
+			<li>Calcium: 6% Iron: 15%</li>
+		</ul>
+	</div>
+
+<div class="column right cf">
+		<h4>Tags:</h4>
+		
+			<a href="" class="tag">Salad</a>, <a href="" class="tag">Vegetarian</a>, <a href="" class="tag">Gluten Free</a>, <a href="" class="tag">Fast</a>, <a href="" class="tag">Happy</a>
+				
+				<img src="img/stonyfield-yogurt.jpg" alt="" class="inline recipe-prod-img">
+				<p class="inline">For more info<br> visit <a href="http://Stonyfield.com" target="_blank">Stonyfield.com</a></p>
+				
+</div>
+		
 	
 </section>
 <!--recipe content-->
@@ -147,6 +188,13 @@
 </article>
 <!--other happy recepies-->
 
+<!--calling all foodies recipe-->
+<section class="container light-blue-bg">
+	<section class="inner ">
+		<h2>Calling all foodies</h2>
+	</section>
+</section>
+<!--calling all foodies recipe-->
 
 
 <!--include--footer-->
