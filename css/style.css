@@ -14,6 +14,21 @@
 /*font-family: 'Lato', sans-serif;*/
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400);
 
+/*--ostrich sans medium--*/
+@font-face {
+  font-family: 'osm';
+  src: url('fonts/OstrichSans-Medium.otf'); /* IE9 Compat Modes */
+  src:url('fonts/OstrichSans-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+/*--ostrich sans black--*/
+@font-face {
+  font-family: 'osb';
+  src: url('fonts/OstrichSans-Black.otf'); /* IE9 Compat Modes */
+  src:url('fonts/OstrichSans-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+
 /*--helper classes--*/
 .left{float:left;}
 .right{float:right;}
@@ -217,3 +232,16 @@ right: 194px; top: 386px; color:#fff; }
 .recipe-prod-img{padding:50px 0 0 0;} 
 
 .column p{font-family: 'Open Sans', sans-serif; font-weight:400; font-size: 1.2em;}
+
+.calling-all-fodies-single{position:relative; padding:19px 0 48px 0}
+.calling-all-fodies-single h2{margin:0; padding: 0 0 0 135px;}
+.calling-all-fodies-single h2 span{font-family: osm, sans-serif; font-size: 4em; font-weight: normal; color:#5f89c4;}
+.calling-all-fodies-single h2 span:last-of-type{font-family: osb, sans-serif; font-size: 3.71em;}
+.submit-recipe-single{background-image: url(../img/single-recipe-pink-g.jpg); background-repeat: no-repeat; width:845px; height:140px;}
+
+.submit-recipe-single h6{font-family: osm, sans-serif; font-size: 3.3em; font-weight: normal; color:#fff; margin:0; padding-left: 119px;
+letter-spacing: 1px;}
+
+.submit-recipe-single img{display: block; padding: 0 0 0 260px;}
+
+.calling-all-fodies-single .absolute-image{position:absolute; top:0; right: -60px;}

@@ -190,12 +190,21 @@
 
 <!--calling all foodies recipe-->
 <section class="container light-blue-bg">
-	<section class="inner ">
-		<h2>Calling all foodies</h2>
+	<section class="inner calling-all-fodies-single">
+		<h2><span>Calling all</span> <span>foodies</span></h2>
+		<div class="submit-recipe-single">
+			<h6>Submit your recipe for a chance to</h6>
+			<img src="img/win-25000.png" alt="win 25,000.00">
+		</div>
+		<img src="img/symon-sinlge-recipe.png" class="absolute-image">
+		<!--<a href="" class="enter-now">Enter Now</a>-->
 	</section>
 </section>
 <!--calling all foodies recipe-->
 
+<!--comments and reviews-->
+
+<!--comments and reviews-->
 
 <!--include--footer-->
 <?php include('views/footer.php'); ?>
